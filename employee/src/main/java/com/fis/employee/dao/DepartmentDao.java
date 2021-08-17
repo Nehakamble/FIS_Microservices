@@ -1,4 +1,4 @@
-package com.fis.employeedao;
+package com.fis.employee.dao;
 
 import java.util.ArrayList;
 
@@ -6,8 +6,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
-import com.fis.springlearn.SpringLearnConstants;
-import com.fis.springlearn.bean.Department;
+import com.fis.employee.SpringLearnConstants;
+import com.fis.employee.bean.Department;
 @Component
 public class DepartmentDao {
 	

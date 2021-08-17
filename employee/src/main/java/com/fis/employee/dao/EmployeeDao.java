@@ -1,13 +1,13 @@
-package com.fis.employeedao;
+package com.fis.employee.dao;
 
 import java.util.ArrayList;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.fis.springlearn.SpringLearnConstants;
-import com.fis.springlearn.bean.Employee;
-import com.fis.springlearn.service.exception.EmployeeNotFoundException;
+import com.fis.employee.SpringLearnConstants;
+import com.fis.employee.bean.Employee;
+import com.fis.employee.service.exception.EmployeeNotFoundException;
 
 //@Component
 public class EmployeeDao {

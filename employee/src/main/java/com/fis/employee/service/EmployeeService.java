@@ -1,4 +1,4 @@
-package com.fis.employeeService;
+package com.fis.employee.service;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fis.springlearn.bean.Employee;
-import com.fis.springlearn.repository.EmployeeRepository;
+import com.fis.employee.bean.Employee;
+import com.fis.employee.repository.EmployeeRepository;
 
 //@Component
 @Service

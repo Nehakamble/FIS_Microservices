@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fis.springlearn.SpringLearnConstants;
-import com.fis.springlearn.bean.Employee;
-import com.fis.springlearn.bean.Skill;
-import com.fis.springlearn.dto.DepartmentDTO;
-import com.fis.springlearn.dto.EmployeeDTO;
-import com.fis.springlearn.dto.SkillDTO;
-import com.fis.springlearn.service.EmployeeService;
-import com.fis.springlearn.service.exception.EmployeeNotFoundException;
+import com.fis.employee.SpringLearnConstants;
+import com.fis.employee.bean.Employee;
+import com.fis.employee.bean.Skill;
+import com.fis.employee.dto.DepartmentDTO;
+import com.fis.employee.dto.EmployeeDTO;
+import com.fis.employee.dto.SkillDTO;
+import com.fis.employee.service.EmployeeService;
+import com.fis.employee.service.exception.EmployeeNotFoundException;
 
 //@Component
 @RestController

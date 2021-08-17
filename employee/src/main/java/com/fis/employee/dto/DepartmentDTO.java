@@ -1,12 +1,12 @@
-package com.fis.employeedto;
+package com.fis.employee.dto;
 
 import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fis.springlearn.bean.Department;
-import com.fis.springlearn.bean.Employee;
+import com.fis.employee.bean.Department;
+import com.fis.employee.bean.Employee;
 
 public class DepartmentDTO{
 	private static final Logger LOGGER = LoggerFactory.getLogger(Department.class);

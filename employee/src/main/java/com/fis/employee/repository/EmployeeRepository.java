@@ -1,4 +1,4 @@
-package com.fis.employeeRepository;
+package com.fis.employee.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.fis.springlearn.bean.Employee;
+import com.fis.employee.bean.Employee;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
