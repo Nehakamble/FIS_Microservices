@@ -1,14 +1,13 @@
-package com.fis.zuulgateway;
+package com.fis.employee;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class ZuulGatewayApplication {
+public class EmployeeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZuulGatewayApplication.class, args);
+		SpringApplication.run(EmployeeApplication.class, args);
 	}
 
 }

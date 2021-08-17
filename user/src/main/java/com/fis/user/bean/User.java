@@ -1,4 +1,4 @@
-package com.fis.springlearn.bean;
+package com.fis.user.bean;
 
 import java.util.Set;
 
